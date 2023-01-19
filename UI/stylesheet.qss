@@ -1,0 +1,45 @@
+QMainWindow {
+	background-color: black;
+}
+QTextEdit {
+	color: rgb(80, 90, 100);
+	background-color: rgb(30, 30, 30);
+	border-style: none;
+	border-width: 0;
+}
+QLabel {
+	background-color: rgb(60, 60, 60);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+QLabel#Title {
+	background-color: black;
+	color: rgb(120, 160, 200);
+	font-size: 28px;
+	font-weight: 1000;
+}
+*[dateLabel="true"] {
+	background-color: rgb(30, 30, 30);
+	padding-left: 2px;
+	font-size: 12px;
+}
+*[today="true"] {
+	background-color: rgb(40, 60, 80);
+}
+*[past="true"] {
+	background-color: rgb(20,30,40);
+}
+*[empty="false"] {
+	color: white;
+}
+QWidget {
+	background-color: (122, 122, 122);
+}
+QPushButton {
+	background-color: black;
+	color: white;
+	border-width: 0;
+}
+QPushButton:hover {
+	background-color: grey;
+}
